@@ -1,0 +1,25 @@
+GET http://localhost:3000/category
+
+###
+GET http://localhost:3000/category/61a1add718cb29da58741fd2
+
+###
+POST http://localhost:3000/category
+Content-Type: application/json
+
+{
+    "name": "buah"
+    
+
+}
+
+###
+PATCH http://localhost:3000/category/61a1add718cb29da58741fd2
+Content-Type: application/json
+
+{
+    "name": "category Updated"
+}
+
+###
+DELETE http://localhost:3000/category/61a2eb4120e9fa29900f8ae1
